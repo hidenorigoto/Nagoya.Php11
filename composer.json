@@ -1,0 +1,25 @@
+{
+    "name": "hidenorigoto/nagoya.dk11",
+    "authors": [
+        {
+            "name": "hidenorigoto",
+            "email": "hidenorigoto@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nagoya\\Dk11\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nagoya\\Dk11\\":["tests/"]
+        }
+    }
+}
